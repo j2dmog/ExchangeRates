@@ -4,14 +4,15 @@ body {
 }
 article {
     color: black;
-    background-image: url(./Images/images.jpg);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 h1 {
+    margin-bottom: 15rem;
     text-align: center;
+    font-size: 3rem;
 }
 .main1 {
     display: flex;
@@ -36,4 +37,12 @@ button {
 }
 label {
     color: greenyellow;
+}
+.result {
+    color: aliceblue;
+    display: flex;
+    gap: 10rem;
+}
+.screen1 {
+    margin-left: 2rem;
 }
