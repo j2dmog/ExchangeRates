@@ -1,13 +1,14 @@
 body {
-    background-image: url();
-    background-repeat: no-repeat;
+    background-image: url(./Images/Background.jpg);
     background-size: cover;
 }
 article {
+    color: black;
+    background-image: url(./Images/images.jpg);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)    
+    transform: translate(-50%, -50%)
 }
 h1 {
     text-align: center;
@@ -15,10 +16,24 @@ h1 {
 .main1 {
     display: flex;
 }
-
+.input1 {
+    height: 2rem;
+    background-color: blue;
+    text-decoration: black;
+}
+.input2 {
+    height: 2rem;
+    background-color: blue;
+    text-decoration: black;
+}
 .USDContainer {
     margin-right: 2rem;
 }
 button {
+    height: 2rem;
     margin: 0 9rem;
+    background-color: blue;
+}
+label {
+    color: greenyellow;
 }
